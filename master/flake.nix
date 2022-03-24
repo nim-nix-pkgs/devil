@@ -1,5 +1,5 @@
 {
-  description = ''Wrapper for the DevIL image library'';
+  description = ''Wrapper for the DevIL library.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
