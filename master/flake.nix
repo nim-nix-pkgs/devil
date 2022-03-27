@@ -11,6 +11,7 @@
   inputs.src-DevIL-master.ref   = "refs/heads/master";
   inputs.src-DevIL-master.owner = "Varriount";
   inputs.src-DevIL-master.repo  = "DevIL";
+  inputs.src-DevIL-master.dir   = "";
   inputs.src-DevIL-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
