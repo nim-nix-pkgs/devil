@@ -7,8 +7,37 @@
   "license": "MIT",
   "web": "https://github.com/Varriount/DevIL",
   "refs": [
-    "fatal: unable to access 'https://github.com/Varriount/DevIL/': Could not resolve host: github.com",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "DevIL",
+      "version": "0.1.0",
+      "author": "Clay Sweetser (Varriount)",
+      "desc": "Wrapper for the DevIL library.",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nimrod",
+          "str": ">= 0.9.2",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.9.2"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
